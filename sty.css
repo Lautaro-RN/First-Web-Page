@@ -1,0 +1,475 @@
+body {
+	font-family: 'Roboto';
+}
+
+header, section, footer{
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	height: 128px;
+	background-color: #7a7538;
+	position: static;
+}
+
+#nombre {
+	font-size: 20px;
+	height: 128px;
+	width: 300px;
+	float: left;
+	background-color: #7a7538;
+}
+
+#desplegable {
+	display: none;
+}
+
+#botones_arriba {
+	height: 128px;
+	width: 400px;
+	float: right;
+	background-color: #7a7538;
+}
+
+#botones_arriba ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#botones_arriba ul li {
+	display: inline;
+}
+
+#botones_arriba ul li a {
+	display:  inline-block;
+	text-decoration: none;
+	color: #dddddd;
+	font-weight: bold;
+	padding: 90px 4px;
+}
+
+#botones_arriba ul li a:hover {
+	color: #ffffff;
+}
+
+#puerta {
+	height: 480px;
+	background-image: url(IMG/9.jpg);
+	background-size: cover;
+
+}
+
+#texto_puerta {
+	width: 150px;
+	height: 390px;
+	float: left;
+	margin-right: 30px;
+	margin-top: 50px;
+	padding: 30px;
+	font-size: 40px;
+	text-align: right;
+	background-color: rgba(251, 246, 191, 0.5);
+	color: #7a785d;
+}
+
+#presentacion {
+	height: 350px;
+	background-color: #faee73;
+}
+
+#texto_pres {
+	width: 800px;
+	height: 240px;
+	float: left;
+	position: static;
+	margin-left: 112px;
+	margin-top: 0px;
+	padding: 0px;
+	color: #7a785d;
+	font-style: italic;
+}
+
+#Tit_pres {
+	margin: 25px;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.pars_pres {
+	padding: 0;
+	font-size: 24px;
+	margin: 15px;
+	font-weight: bold;
+}
+
+#productos {
+	height: 400px;
+	background-color: #faee73;
+}
+
+#productos div a {
+	text-decoration: none;
+	color: #7a785d;
+}
+
+#prod1, #prod2, #prod3 {
+	background-color: #faee73;
+	width: 33.33%;
+	float: left;
+}
+
+#tit1, #tit2, #tit3, #tit4 {
+	height: 50px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+	margin-top: 25px;
+}
+
+.img_prod {
+	height: 290px;
+	width: 300px;
+	margin: 20px;
+}
+
+#img1 {
+	background-image: url(IMG/depto.jpg);
+}
+
+#img2 {
+	background-image: url(IMG/cochera.jpg);
+}
+
+#img3 {
+	background-image: url(IMG/local.jpg);
+}
+
+#col {
+	background-color: #ffffff;
+}
+
+div.ub {
+	height: 500px;
+	margin-bottom: 0;
+}
+
+#maps {
+	background-color: #faee73;
+	width: 650px;
+	float: left;
+}
+
+#cuadro {
+	margin: 25px;
+}
+
+#distancias {
+	background-color: #faee73;
+	width: 374px;
+	float: left;
+}
+
+#tit5 {
+	height: 50px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+	margin-top: 25px;
+	color: #7a785d;
+}
+
+#vacuo {
+	background-color: #ffffff;
+	height: 480px;
+}
+
+script p {
+	padding: 0;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+footer {
+	height: 200px;
+}
+
+#izq {
+	height: 180px;
+	width: 720px;
+	float: left;
+	background-color: #faee73;
+}
+
+#tit5 {
+	height: 50px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+	margin-top: 0px;
+}
+
+#contacto {
+	text-align: left;
+}
+
+#texcon {
+	font-size: 16px;
+	font-weight: 250;
+	margin-top: 0px;
+	color: #7a785d;
+}
+
+#enlaces {
+	height: 180px;
+	width: 350x;
+	background-color: #faee73;
+	float: left;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+	
+	header, section, footer {
+		width: 580px;
+	}	
+
+	header {
+		height: 100px;
+	}
+
+	#nombre {
+	height: 100px;
+	width: 200px;
+	}
+
+	#botones_arriba {
+		height: 100px;
+		width: 280px;
+	}
+
+	#botones_arriba ul li a {
+		padding: 12px 20px;
+	}
+
+	#puerta {
+		height: 360px;
+		background-image: url(IMG/9s.jpg);
+	}
+
+	#texto_puerta {
+		width: 90px;
+		height: 200px;
+		float: left;
+		padding: 30px 10px;
+		font-size: 30px;
+	}
+
+	#presentacion {
+		height: 330px;
+	}
+
+	#texto_pres {
+		width: 560px;
+		height: 260px;
+		float: left;
+		position: static;
+		margin-left: 10px;			
+	}
+
+	#Tit_pres {
+		font-size: 30px;
+	}
+
+	.pars_pres {
+		padding: 10px;
+		font-size: 18px;
+		margin: 0px;
+	}
+
+	#productos {
+	height: 309px;
+	}
+
+	#tit1, #tit2, #tit3 {
+	height: 30px;
+	font-size: 15px;
+	font-weight: 250;
+}
+
+	.img_prod {
+		height: 240px;
+		width: 172px;
+		margin: 10px;
+	}
+
+	#img1 {
+		background-image: url(IMG/depto-s.jpg);
+	}
+
+	#img2 {
+		background-image: url(IMG/cochera-s.jpg);
+	}
+
+	#img3 {
+		background-image: url(IMG/local-s.jpg);
+	}
+
+	#ubicacion {
+		height: 400px;
+	}
+
+	div.ub {
+		height: 200px;
+		width: 580px;
+	}
+
+	footer {
+		height: 300px;
+	}
+
+
+	#izq {
+		width: 290px;
+		float: left;
+	}
+
+	#contacto {
+		height: 180px;
+		padding: 10px;
+	}
+
+	#fiscal {
+		height: 120px;
+	}
+
+	#enlaces {
+		width: 290px;
+		height: 300px;
+	}
+
+}
+
+@media all and (max-width: 599px) {
+	header, section, footer{
+	width: 90%;
+	}
+
+	header {
+		height: auto;
+		position: sticky;
+		top: 0;
+	}
+
+	#nombre, #botones_arriba {
+		font-size: 18px;
+		height: auto;
+		width: 100%;
+	}
+
+	#desplegable {
+		display: block;
+		width: 100%;
+		height: 40px;
+		background-color: darkgrey;
+		float: left;
+		padding: 5px;
+		box-sizing: border-box;
+		border-radius: 2px;
+		text-align: center;
+	}
+
+	#desplegable a {
+		text-decoration: none;
+		color: #909090;
+		font-size: 30px;
+	}
+
+	#botones_arriba {
+		display: none;
+	}
+
+	#botones_arriba ul li {
+		display: block;
+	}
+
+	#botones_arriba ul li a {
+		padding: 5px;
+		width: 100%;
+		text-align: center;
+	}
+
+	#puerta {
+		height: 400px;
+		background-image: url(IMG/9xs.jpg);
+	}
+
+	#texto_puerta {
+		width: 25%;
+		height: 35%;
+		margin-right: 0px;
+		margin-top: 13%;
+		padding: 0%;
+		font-size: 25px;
+		text-align: center;
+	}
+
+	#presentacion {
+		height: 300px;
+	}
+
+	#texto_pres {
+		width: 95%;
+		height: 85%;
+		margin-left: 10px;
+		text-align: center;
+	}
+
+	#Tit_pres {
+		padding: 10px;
+		font-size: 30px;
+	}
+
+	.pars_pres {
+		font-size: 17px;
+	}
+
+	#productos {
+		height: 250px;
+	}
+
+	div.pr {
+		height: 100%;
+	}
+
+	#ubicacion {
+	height: 300px;
+	background-color: #000000;
+	}
+
+	div.ub {
+		height: 200px;
+		width: 100%;
+	}
+
+	footer {
+	height: 250px;
+	}
+
+
+	#izq {
+		width: 70%;
+	}
+
+	#contacto {
+		height: 150px;
+	}
+
+	#enlaces {
+		width: 30%;
+		height: 100%;
+	}
+
+}
